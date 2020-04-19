@@ -1,69 +1,117 @@
-                           start                                 end          Interview.Date
- 2020-04-05T10:41:50.749+03:00:   1   2020-04-05T11:59:15.202+03:00:   1   2020-04-05:  1   
- 2020-04-05T11:59:15.423+03:00:   1   2020-04-06T09:54:31.437+03:00:   1   2020-04-06:235   
- 2020-04-05T22:37:24.493+03:00:   1   2020-04-06T10:28:57.722+03:00:   1   2020-04-07:446   
- 2020-04-06T08:39:47.327+03:00:   1   2020-04-06T10:34:37.976+03:00:   1   2020-04-08:298   
- 2020-04-06T09:20:18.003+03:00:   1   2020-04-06T10:36:46.780+03:00:   1   2020-04-09:144   
- 2020-04-06T09:55:37.834+03:00:   1   2020-04-06T10:44:25.384+03:00:   1                    
- (Other)                      :1118   (Other)                      :1118                    
-            Interview.Time             Enumerator         Enumerator.Agency Consent     Refugee.vs.Jordanian
- 14:00:00.000+03:00:  23   Munes Hurani     : 55   UNHCR           :361     yes:1124   Non-Refugee:401      
- 14:30:00.000+03:00:  21   Khaled Atwan     : 43   UNICEF          : 99                Refugee    :723      
- 13:30:00.000+03:00:  19   Diana Qaqish     : 41   UNICEF - ACTED  : 18                                     
- 13:00:00.000+03:00:  17   Alaa AlShawabkeh : 36   UNICEF - Mindset:396                                     
- 17:00:00.000+03:00:  17   Idris Al-Shishani: 36   UNICEF - TdH    : 24                                     
- 11:30:00.000+03:00:  16   Haneen Jarrar    : 34   WFP             :226                                     
- (Other)           :1011   (Other)          :879                                                            
- X.UNHCR.Case.ID.      UNHCR.Case.ID  Nationality     Governorate     District   Respondent.Gender  HoH.Gender 
- no :408          118-15C00219:  1   SYR    :530   Amman    :424   Amman  :116   female:368        female:248  
- yes:716          118-18C00541:  1   JOR    :400   Irbid    :259   Irbid  :115   male  :756        male  :876  
-                  165-13C00330:  1   IRQ    :121   Al Mafraq:160   Azraq  : 60                                 
-                  165-13C00585:  1   YEM    : 31   Zarqa    :118   Ramtha : 49                                 
-                  165-13C01057:  1   SUD    : 25   Al Balqa : 42   Mafraq : 46                                 
-                  (Other)     :711   SOM    :  9   Madaba   : 29   Zarqa  : 40                                 
-                  NA's        :408   (Other):  8   (Other)  : 92   (Other):698                                 
-  Family.Size     X..of.girls.in.case...18. X..of.boys.in.case...18. X..of..adult.females...18.59.
- Min.   : 1.000   Min.   :0.000             Min.   :0.000            Min.   :0.000                
- 1st Qu.: 3.000   1st Qu.:0.000             1st Qu.:0.000            1st Qu.:1.000                
- Median : 5.000   Median :1.000             Median :1.000            Median :1.000                
- Mean   : 5.015   Mean   :1.292             Mean   :1.383            Mean   :1.039                
- 3rd Qu.: 7.000   3rd Qu.:2.000             3rd Qu.:2.000            3rd Qu.:1.000                
- Max.   :22.000   Max.   :8.000             Max.   :8.000            Max.   :8.000                
-                                                                                                  
- X..of.adult.males...18..59. X..of.elderly...60. Household.Members.disabled.or.chronically.ill
- Min.   :0.0000              Min.   :0.0000      both          : 54                           
- 1st Qu.:1.0000              1st Qu.:0.0000      chronically_il:196                           
- Median :1.0000              Median :0.0000      disability    :107                           
- Mean   :0.9991              Mean   :0.1495      no            :767                           
- 3rd Qu.:1.0000              3rd Qu.:0.0000                                                   
- Max.   :7.0000              Max.   :3.0000                                                   
-                                                                                              
- HH.Member.has.disability HH..Member.has.chronic.ill HH.member.has.both_dis_CI HH.member.has.none_.dis_CI
- No :1017                 No :928                    No :1070                  No :357                   
- Yes: 107                 Yes:196                    Yes:  54                  Yes:767                   
-                                                                                                         
-                                                                                                         
-                                                                                                         
-                                                                                                         
-                                                                                                         
- X..of.HH.members.with.disabilities X..of.HH.members.with.chronic.illness Where.do.you.live.currently.
- Min.   :0.0000                     Min.   :0.000                         host_community:966          
- 1st Qu.:0.0000                     1st Qu.:0.000                         informal_tent :138          
- Median :0.0000                     Median :0.000                         other         : 20          
- Mean   :0.2575                     Mean   :0.353                                                     
- 3rd Qu.:0.0000                     3rd Qu.:1.000                                                     
- Max.   :6.0000                     Max.   :5.000                                                     
- NA's   :355                        NA's   :277                                                       
-             Other..please.specify If.host.community..what.is.your.type.of.dwelling.possession.
- Building               :   8      for_free    :  5                                            
- Sahhab                 :   2      owned_by_fam: 11                                            
- Alnaser (area in amman):   1      owned_by_hh : 29                                            
- Ground Floor House     :   1      rented      : 19                                            
- Irbid                  :   1      unknown     :587                                            
- (Other)                :   6      NA's        :473                                            
- NA's                   :1105                                                                  
+                           start     
+ 2020-04-05T10:41:50.749+03:00:   1  
+ 2020-04-05T11:59:15.423+03:00:   1  
+ 2020-04-05T22:37:24.493+03:00:   1  
+ 2020-04-06T08:39:47.327+03:00:   1  
+ 2020-04-06T09:20:18.003+03:00:   1  
+ 2020-04-06T09:55:37.834+03:00:   1  
+ (Other)                      :1118  
+                            end          Interview.Date
+ 2020-04-05T11:59:15.202+03:00:   1   2020-04-05:  1   
+ 2020-04-06T09:54:31.437+03:00:   1   2020-04-06:235   
+ 2020-04-06T10:28:57.722+03:00:   1   2020-04-07:446   
+ 2020-04-06T10:34:37.976+03:00:   1   2020-04-08:298   
+ 2020-04-06T10:36:46.780+03:00:   1   2020-04-09:144   
+ 2020-04-06T10:44:25.384+03:00:   1                    
+ (Other)                      :1118                    
+            Interview.Time             Enumerator 
+ 14:00:00.000+03:00:  23   Munes Hurani     : 55  
+ 14:30:00.000+03:00:  21   Khaled Atwan     : 43  
+ 13:30:00.000+03:00:  19   Diana Qaqish     : 41  
+ 13:00:00.000+03:00:  17   Alaa AlShawabkeh : 36  
+ 17:00:00.000+03:00:  17   Idris Al-Shishani: 36  
+ 11:30:00.000+03:00:  16   Haneen Jarrar    : 34  
+ (Other)           :1011   (Other)          :879  
+        Enumerator.Agency Consent     Refugee.vs.Jordanian
+ UNHCR           :361     yes:1124   Non-Refugee:401      
+ UNICEF          : 99                Refugee    :723      
+ UNICEF - ACTED  : 18                                     
+ UNICEF - Mindset:396                                     
+ UNICEF - TdH    : 24                                     
+ WFP             :226                                     
+                                                          
+ X.UNHCR.Case.ID.      UNHCR.Case.ID  Nationality     Governorate 
+ no :408          118-15C00219:  1   SYR    :530   Amman    :424  
+ yes:716          118-18C00541:  1   JOR    :400   Irbid    :259  
+                  165-13C00330:  1   IRQ    :121   Al Mafraq:160  
+                  165-13C00585:  1   YEM    : 31   Zarqa    :118  
+                  165-13C01057:  1   SUD    : 25   Al Balqa : 42  
+                  (Other)     :711   SOM    :  9   Madaba   : 29  
+                  NA's        :408   (Other):  8   (Other)  : 92  
+    District   Respondent.Gender  HoH.Gender   Family.Size    
+ Amman  :116   female:368        female:248   Min.   : 1.000  
+ Irbid  :115   male  :756        male  :876   1st Qu.: 3.000  
+ Azraq  : 60                                  Median : 5.000  
+ Ramtha : 49                                  Mean   : 5.015  
+ Mafraq : 46                                  3rd Qu.: 7.000  
+ Zarqa  : 40                                  Max.   :22.000  
+ (Other):698                                                  
+ X..of.girls.in.case...18. X..of.boys.in.case...18.
+ Min.   :0.000             Min.   :0.000           
+ 1st Qu.:0.000             1st Qu.:0.000           
+ Median :1.000             Median :1.000           
+ Mean   :1.292             Mean   :1.383           
+ 3rd Qu.:2.000             3rd Qu.:2.000           
+ Max.   :8.000             Max.   :8.000           
+                                                   
+ X..of..adult.females...18.59. X..of.adult.males...18..59.
+ Min.   :0.000                 Min.   :0.0000             
+ 1st Qu.:1.000                 1st Qu.:1.0000             
+ Median :1.000                 Median :1.0000             
+ Mean   :1.039                 Mean   :0.9991             
+ 3rd Qu.:1.000                 3rd Qu.:1.0000             
+ Max.   :8.000                 Max.   :7.0000             
+                                                          
+ X..of.elderly...60. Household.Members.disabled.or.chronically.ill
+ Min.   :0.0000      both          : 54                           
+ 1st Qu.:0.0000      chronically_il:196                           
+ Median :0.0000      disability    :107                           
+ Mean   :0.1495      no            :767                           
+ 3rd Qu.:0.0000                                                   
+ Max.   :3.0000                                                   
+                                                                  
+ HH.Member.has.disability HH..Member.has.chronic.ill
+ No :1017                 No :928                   
+ Yes: 107                 Yes:196                   
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+ HH.member.has.both_dis_CI HH.member.has.none_.dis_CI
+ No :1070                  No :357                   
+ Yes:  54                  Yes:767                   
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+ X..of.HH.members.with.disabilities X..of.HH.members.with.chronic.illness
+ Min.   :0.0000                     Min.   :0.000                        
+ 1st Qu.:0.0000                     1st Qu.:0.000                        
+ Median :0.0000                     Median :0.000                        
+ Mean   :0.2575                     Mean   :0.353                        
+ 3rd Qu.:0.0000                     3rd Qu.:1.000                        
+ Max.   :6.0000                     Max.   :5.000                        
+ NA's   :355                        NA's   :277                          
+ Where.do.you.live.currently.             Other..please.specify
+ host_community:966           Building               :   8     
+ informal_tent :138           Sahhab                 :   2     
+ other         : 20           Alnaser (area in amman):   1     
+                              Ground Floor House     :   1     
+                              Irbid                  :   1     
+                              (Other)                :   6     
+                              NA's                   :1105     
+ If.host.community..what.is.your.type.of.dwelling.possession.
+ for_free    :  5                                            
+ owned_by_fam: 11                                            
+ owned_by_hh : 29                                            
+ rented      : 19                                            
+ unknown     :587                                            
+ NA's        :473                                            
+                                                             
  UNHCR.Cash.Beneficiary    FAMILY_SIZE             REFUGEE_STATUS
- No :1093               3 or less:353   Non-Refugee       :400   
+ No :1093               3 or less:353   Jordanian         :400   
  Yes:  31               4 to 6   :442   Non-Syrian Refugee:194   
                         7 or more:329   Syrian Refugee    :530   
                                                                  
@@ -73,233 +121,770 @@
 [1] "######################################################"
 [1] "Consent  Frequency"
 
+ yes 
+1124 
+
 yes 
   1 
 [1] "######################################################"
 [1] "Enumerator  Frequency"
 
-        Ahmad Almuzayen     Ahmad Hussein Kamel          Aida al Masaed        Alaa AlShawabkeh 
-            0.016903915             0.019572954             0.008007117             0.032028470 
-             Ali Saleem             Anaam Ahmad             Aseel Kamal            Ayman Momani 
-            0.023131673             0.009786477             0.024911032             0.012455516 
-    Batool Abdul-Wahhab             Bayan Numan            Diana Qaqish            Dina Ibrahim 
-            0.013345196             0.017793594             0.036476868             0.013345196 
-           Dina Ramadan          Dirar Alhoumad           Eman Algrideh           Fairouz Tareq 
-            0.005338078             0.021352313             0.009786477             0.013345196 
-        Fatimah Mukhled             Firas Batat            Ghaida Nayef       Hadeel Fakhreddin 
-            0.014234875             0.016903915             0.018683274             0.017793594 
-          Haneen Jarrar           Haya Al Jamal       Idris Al-Shishani      Katrin Al-Shurafat 
-            0.030249110             0.017793594             0.032028470             0.020462633 
-           Khaled Atwan            Kholoud Raja              Laila Issa            Lara Elakkad 
-            0.038256228             0.008007117             0.025800712             0.027580071 
-               Lina Ali             Maha Sultan          Malek Almomani             Manal Jamal 
-            0.025800712             0.024021352             0.016014235             0.029359431 
-         Minyal Alawadi         Moath Alkhateeb          Mohamad Bakeer          Mohammad Merei 
-            0.017793594             0.018683274             0.018683274             0.010676157 
-        Monther Ababneh            Munes Hurani           Naelah Hassan            Nuha Darwish 
-            0.016903915             0.048932384             0.014234875             0.024911032 
-           Osama Tamimi             Rabab Baker           Raghad Romman            Rakan Arabas 
-            0.016014235             0.002669039             0.017793594             0.024911032 
-           Sahar Yaqoub           Sally Alloush            Samiha Delmy         Sarah Al-Sayyed 
-            0.011565836             0.017793594             0.005338078             0.004448399 
-        Sundus al-Smadi         Tahani Shehadeh          Teejan Hussein Waad Yousef Bani Hamdan 
-            0.008007117             0.017793594             0.016903915             0.013345196 
-       Waleed Abu Obaid      Yousef Al Moghrabi 
-            0.026690391             0.005338078 
+        Ahmad Almuzayen     Ahmad Hussein Kamel          Aida al Masaed 
+                     19                      22                       9 
+       Alaa AlShawabkeh              Ali Saleem             Anaam Ahmad 
+                     36                      26                      11 
+            Aseel Kamal            Ayman Momani     Batool Abdul-Wahhab 
+                     28                      14                      15 
+            Bayan Numan            Diana Qaqish            Dina Ibrahim 
+                     20                      41                      15 
+           Dina Ramadan          Dirar Alhoumad           Eman Algrideh 
+                      6                      24                      11 
+          Fairouz Tareq         Fatimah Mukhled             Firas Batat 
+                     15                      16                      19 
+           Ghaida Nayef       Hadeel Fakhreddin           Haneen Jarrar 
+                     21                      20                      34 
+          Haya Al Jamal       Idris Al-Shishani      Katrin Al-Shurafat 
+                     20                      36                      23 
+           Khaled Atwan            Kholoud Raja              Laila Issa 
+                     43                       9                      29 
+           Lara Elakkad                Lina Ali             Maha Sultan 
+                     31                      29                      27 
+         Malek Almomani             Manal Jamal          Minyal Alawadi 
+                     18                      33                      20 
+        Moath Alkhateeb          Mohamad Bakeer          Mohammad Merei 
+                     21                      21                      12 
+        Monther Ababneh            Munes Hurani           Naelah Hassan 
+                     19                      55                      16 
+           Nuha Darwish            Osama Tamimi             Rabab Baker 
+                     28                      18                       3 
+          Raghad Romman            Rakan Arabas            Sahar Yaqoub 
+                     20                      28                      13 
+          Sally Alloush            Samiha Delmy         Sarah Al-Sayyed 
+                     20                       6                       5 
+        Sundus al-Smadi         Tahani Shehadeh          Teejan Hussein 
+                      9                      20                      19 
+Waad Yousef Bani Hamdan        Waleed Abu Obaid      Yousef Al Moghrabi 
+                     15                      30                       6 
+
+        Ahmad Almuzayen     Ahmad Hussein Kamel          Aida al Masaed 
+            0.016903915             0.019572954             0.008007117 
+       Alaa AlShawabkeh              Ali Saleem             Anaam Ahmad 
+            0.032028470             0.023131673             0.009786477 
+            Aseel Kamal            Ayman Momani     Batool Abdul-Wahhab 
+            0.024911032             0.012455516             0.013345196 
+            Bayan Numan            Diana Qaqish            Dina Ibrahim 
+            0.017793594             0.036476868             0.013345196 
+           Dina Ramadan          Dirar Alhoumad           Eman Algrideh 
+            0.005338078             0.021352313             0.009786477 
+          Fairouz Tareq         Fatimah Mukhled             Firas Batat 
+            0.013345196             0.014234875             0.016903915 
+           Ghaida Nayef       Hadeel Fakhreddin           Haneen Jarrar 
+            0.018683274             0.017793594             0.030249110 
+          Haya Al Jamal       Idris Al-Shishani      Katrin Al-Shurafat 
+            0.017793594             0.032028470             0.020462633 
+           Khaled Atwan            Kholoud Raja              Laila Issa 
+            0.038256228             0.008007117             0.025800712 
+           Lara Elakkad                Lina Ali             Maha Sultan 
+            0.027580071             0.025800712             0.024021352 
+         Malek Almomani             Manal Jamal          Minyal Alawadi 
+            0.016014235             0.029359431             0.017793594 
+        Moath Alkhateeb          Mohamad Bakeer          Mohammad Merei 
+            0.018683274             0.018683274             0.010676157 
+        Monther Ababneh            Munes Hurani           Naelah Hassan 
+            0.016903915             0.048932384             0.014234875 
+           Nuha Darwish            Osama Tamimi             Rabab Baker 
+            0.024911032             0.016014235             0.002669039 
+          Raghad Romman            Rakan Arabas            Sahar Yaqoub 
+            0.017793594             0.024911032             0.011565836 
+          Sally Alloush            Samiha Delmy         Sarah Al-Sayyed 
+            0.017793594             0.005338078             0.004448399 
+        Sundus al-Smadi         Tahani Shehadeh          Teejan Hussein 
+            0.008007117             0.017793594             0.016903915 
+Waad Yousef Bani Hamdan        Waleed Abu Obaid      Yousef Al Moghrabi 
+            0.013345196             0.026690391             0.005338078 
 [1] "######################################################"
 [1] "Enumerator.Agency  Frequency"
 
-           UNHCR           UNICEF   UNICEF - ACTED UNICEF - Mindset     UNICEF - TdH              WFP 
-      0.32117438       0.08807829       0.01601423       0.35231317       0.02135231       0.20106762 
+           UNHCR           UNICEF   UNICEF - ACTED UNICEF - Mindset 
+             361               99               18              396 
+    UNICEF - TdH              WFP 
+              24              226 
+
+           UNHCR           UNICEF   UNICEF - ACTED UNICEF - Mindset 
+      0.32117438       0.08807829       0.01601423       0.35231317 
+    UNICEF - TdH              WFP 
+      0.02135231       0.20106762 
 [1] "######################################################"
 [1] "Refugee.vs.Jordanian  Frequency"
+
+Non-Refugee     Refugee 
+        401         723 
 
 Non-Refugee     Refugee 
   0.3567616   0.6432384 
 [1] "######################################################"
 [1] "Enumerator.Agency  Frequency"
 
-           UNHCR           UNICEF   UNICEF - ACTED UNICEF - Mindset     UNICEF - TdH              WFP 
-      0.32117438       0.08807829       0.01601423       0.35231317       0.02135231       0.20106762 
+           UNHCR           UNICEF   UNICEF - ACTED UNICEF - Mindset 
+             361               99               18              396 
+    UNICEF - TdH              WFP 
+              24              226 
+
+           UNHCR           UNICEF   UNICEF - ACTED UNICEF - Mindset 
+      0.32117438       0.08807829       0.01601423       0.35231317 
+    UNICEF - TdH              WFP 
+      0.02135231       0.20106762 
 [1] "######################################################"
 [1] "X.UNHCR.Case.ID.  Frequency"
+
+ no yes 
+408 716 
 
        no       yes 
 0.3629893 0.6370107 
 [1] "######################################################"
 [1] "Nationality  Frequency"
 
-         IRQ          JOR          PAK          PSE          SOM          SUD          SYR          YEM 
-0.1076512456 0.3558718861 0.0062277580 0.0008896797 0.0080071174 0.0222419929 0.4715302491 0.0275800712 
+IRQ JOR PAK PSE SOM SUD SYR YEM 
+121 400   7   1   9  25 530  31 
+
+         IRQ          JOR          PAK          PSE          SOM 
+0.1076512456 0.3558718861 0.0062277580 0.0008896797 0.0080071174 
+         SUD          SYR          YEM 
+0.0222419929 0.4715302491 0.0275800712 
 [1] "######################################################"
 [1] "Governorate  Frequency"
 
-     Ajloun    Al Aqaba    Al Balqa    Al Karak   Al Mafraq  Al Tafilah       Amman       Irbid      Jarash 
-0.013345196 0.007117438 0.037366548 0.019572954 0.142348754 0.007117438 0.377224199 0.230427046 0.022241993 
-      Ma'an      Madaba       Zarqa 
-0.012455516 0.025800712 0.104982206 
+    Ajloun   Al Aqaba   Al Balqa   Al Karak  Al Mafraq Al Tafilah 
+        15          8         42         22        160          8 
+     Amman      Irbid     Jarash      Ma'an     Madaba      Zarqa 
+       424        259         25         14         29        118 
+
+     Ajloun    Al Aqaba    Al Balqa    Al Karak   Al Mafraq  Al Tafilah 
+0.013345196 0.007117438 0.037366548 0.019572954 0.142348754 0.007117438 
+      Amman       Irbid      Jarash       Ma'an      Madaba       Zarqa 
+0.377224199 0.230427046 0.022241993 0.012455516 0.025800712 0.104982206 
 [1] "######################################################"
 [1] "District  Frequency"
 
-                                       -                               Adnaniyyeh 
-                            0.0017793594                             0.0008896797 
-                      Aghwar Shamaliyyeh                                   Aidoon 
-                            0.0133451957                             0.0017793594 
-                           Ain El-Baidha                             Ain El-Basha 
-                            0.0008896797                             0.0017793594 
-                               Ain Janna                                   Ajloun 
-                            0.0017793594                             0.0026690391 
-                                   Ajlun                                    Al'al 
-                            0.0017793594                             0.0017793594 
-                                Al-Balqa                                 Alabdaly 
-                            0.0071174377                             0.0195729537 
-                                Almadina                                  Alnaser 
-                            0.0320284698                             0.0008896797 
-Alquaismeh Aljwaydeh Abu Alanda Alrajeeb                                    Amman 
-                            0.0177935943                             0.1032028470 
-                          Amra & Amiereh                                  Anjarah 
-                            0.0008896797                             0.0008896797 
-                                   Aqaba                                     Aqeb 
-                            0.0071174377                             0.0008896797 
-                                  Athroh                                      Ayy 
-                            0.0008896797                             0.0008896797 
-                             AZR V03-B08                                    Azraq 
-                            0.0008896797                             0.0533807829 
-                           Azraq Shamali                                    Ba'ej 
-                            0.0008896797                             0.0017793594 
-                                   Bader                              Badr Jadeda 
-                            0.0133451957                             0.0008896797 
-                                Bait Ras                                  Bal'ama 
-                            0.0053380783                             0.0035587189 
-                            Bani Kenanah                                   Baq'ah 
-                            0.0088967972                             0.0017793594 
-                                  Basman                                   Bsaira 
-                            0.0195729537                             0.0008896797 
-                                Bwaidhah                                 Dafyaneh 
-                            0.0008896797                             0.0115658363 
-                          Dair Abi Sa'id                                Dair Alla 
-                            0.0008896797                             0.0035587189 
-                           Dair Ess'eneh                                   Dhiban 
-                            0.0008896797                             0.0035587189 
-                                  Dhlail                                  Dnaibeh 
-                            0.0062277580                             0.0008896797 
-                                  Ebbien                          Eskan Abu Nsair 
-                            0.0026690391                             0.0026690391 
-                                  Fuhais                         Ghadeer El-Naqah 
-                            0.0026690391                             0.0017793594 
-                            Ghour Essafi                                   Hakama 
-                            0.0071174377                             0.0008896797 
-                             Hamiediyyeh                                    Hamra 
-                            0.0008896797                             0.0017793594 
-                                 Hariema                               Hashemiyah 
-                            0.0008896797                             0.0026690391 
-                                  Hebras                       Hoafa El-Wastiyyeh 
-                            0.0008896797                             0.0026690391 
-                                   Hoson                                 Howwarah 
-                            0.0017793594                             0.0008896797 
-                                 Hwaijeh                                    Irbid 
-                            0.0008896797                             0.1023131673 
-                                  Jarash                                   Jbaiha 
-                            0.0160142349                             0.0062277580 
-                                   Jizeh                                    Karak 
-                            0.0195729537                             0.0017793594 
-                                 Karamah                                   Ketteh 
-                            0.0008896797                             0.0026690391 
-                       Khaldiyah Jadidah                        Khaldiyah Qademeh 
-                            0.0035587189                             0.0008896797 
-         Khraibet Essooq, Jawa, Yadoodeh                            Koam El-Ahmar 
-                            0.0071174377                             0.0026690391 
-                              Koam Erraf                               Kofor Asad 
-                            0.0008896797                             0.0017793594 
-                             Kofor Yooba                                     Kora 
-                            0.0008896797                             0.0062277580 
-                                Krayymeh                                Kufranjah 
-                            0.0008896797                             0.0008896797 
-                                  Libban                                    Ma'an 
-                            0.0017793594                             0.0097864769 
-                                  Madaba                                    Maeen 
-                            0.0213523132                             0.0008896797 
-                                  Mafraq                                  Manarah 
-                            0.0409252669                             0.0017793594 
-                    Manshiyat Bani Hasan                                Mansoorah 
-                            0.0008896797                             0.0035587189 
-                            Marj Elhamam                                    Marka 
-                            0.0017793594                             0.0186832740 
-                           Mazar Janoobi                            Mazar Shamali 
-                            0.0071174377                             0.0017793594 
-                                Mghayyer                          Mghayyer Serhan 
-                            0.0017793594                             0.0044483986 
-                                Mkaifteh                                 Mowaqqar 
-                            0.0044483986                             0.0008896797 
-                       Mukhayyam Ghazzeh                                   Na'oor 
-                            0.0017793594                             0.0026690391 
-                                  Natfeh                                   Nayfeh 
-                            0.0008896797                             0.0017793594 
-                               No'ayymeh                                  Qafqafa 
-                            0.0017793594                             0.0008896797 
-                                  Qasfah                                     Qasr 
-                            0.0008896797                             0.0017793594 
-                                  Qastal                                   Ramtha 
-                            0.0053380783                             0.0435943060 
-                               Ras Alain                              Rba' Serhan 
-                            0.0017793594                             0.0008896797 
-                                   Rhaba                            Roadhet Basma 
-                            0.0008896797                             0.0017793594 
-                                Russeifa                                 Rwaished 
-                            0.0053380783                             0.0008896797 
-                             Sa'iediyyeh                             Sab'e Aseyar 
-                            0.0008896797                             0.0017793594 
-                                   Sabha                                    Sahab 
-                            0.0071174377                             0.0195729537 
-                                   Sakeb                                  Sakhrah 
-                            0.0008896797                             0.0017793594 
-                                 Salhiya                                     Salt 
-                            0.0026690391                             0.0115658363 
-                             Sama Serhan                                    Samar 
-                            0.0026690391                             0.0008896797 
-                                  Sammo'                                   Sarieh 
-                            0.0008896797                             0.0035587189 
-                            Shafa Badran                                 Shajarah 
-                            0.0026690391                             0.0044483986 
-                                 Shoabak                       Shooneh Janoobiyah 
-                            0.0008896797                             0.0017793594 
-                     Shooneh Janoobiyyeh                                     Soom 
-                            0.0053380783                             0.0008896797 
-                                 Swaileh                                  Tafileh 
-                            0.0169039146                             0.0053380783 
-                                   Tareq                                   Taybah 
-                            0.0008896797                             0.0026690391 
-                                 Tayybeh                                   Tebneh 
-                            0.0008896797                             0.0008896797 
-                        Thoghret El-Jobb         Tla'a Alali, Khelda, Um Essommaq 
-                            0.0017793594                             0.0177935943 
-                                  Torrah                              Um-Elqotain 
-                            0.0008896797                             0.0026690391 
-                             Um Al-Jemal                               Um El-Amad 
-                            0.0026690391                             0.0008896797 
-                           Um El-Jadayel                                Um Essrab 
-                            0.0008896797                             0.0062277580 
-                    Um Qsair, Moqabaleen                              Wadi Essier 
-                            0.0017793594                             0.0151245552 
-                              Wadi Moosa                                Wastiyyeh 
-                            0.0008896797                             0.0053380783 
-                                 Yarmook                                    Yebla 
-                            0.0115658363                             0.0008896797 
-                                 Za'tari                                    Zahar 
-                            0.0062277580                             0.0008896797 
-                                  Zahran                     Zamlet Al-Amir Ghazi 
-                            0.0142348754                             0.0124555160 
-                                   Zarqa                              ZAT D01-B00 
-                            0.0355871886                             0.0008896797 
+                                       - 
+                                       2 
+                              Adnaniyyeh 
+                                       1 
+                      Aghwar Shamaliyyeh 
+                                      15 
+                                  Aidoon 
+                                       2 
+                           Ain El-Baidha 
+                                       1 
+                            Ain El-Basha 
+                                       2 
+                               Ain Janna 
+                                       2 
+                                  Ajloun 
+                                       3 
+                                   Ajlun 
+                                       2 
+                                   Al'al 
+                                       2 
+                                Al-Balqa 
+                                       8 
+                                Alabdaly 
+                                      22 
+                                Almadina 
+                                      36 
+                                 Alnaser 
+                                       1 
+Alquaismeh Aljwaydeh Abu Alanda Alrajeeb 
+                                      20 
+                                   Amman 
+                                     116 
+                          Amra & Amiereh 
+                                       1 
+                                 Anjarah 
+                                       1 
+                                   Aqaba 
+                                       8 
+                                    Aqeb 
+                                       1 
+                                  Athroh 
+                                       1 
+                                     Ayy 
+                                       1 
+                             AZR V03-B08 
+                                       1 
+                                   Azraq 
+                                      60 
+                           Azraq Shamali 
+                                       1 
+                                   Ba'ej 
+                                       2 
+                                   Bader 
+                                      15 
+                             Badr Jadeda 
+                                       1 
+                                Bait Ras 
+                                       6 
+                                 Bal'ama 
+                                       4 
+                            Bani Kenanah 
+                                      10 
+                                  Baq'ah 
+                                       2 
+                                  Basman 
+                                      22 
+                                  Bsaira 
+                                       1 
+                                Bwaidhah 
+                                       1 
+                                Dafyaneh 
+                                      13 
+                          Dair Abi Sa'id 
+                                       1 
+                               Dair Alla 
+                                       4 
+                           Dair Ess'eneh 
+                                       1 
+                                  Dhiban 
+                                       4 
+                                  Dhlail 
+                                       7 
+                                 Dnaibeh 
+                                       1 
+                                  Ebbien 
+                                       3 
+                         Eskan Abu Nsair 
+                                       3 
+                                  Fuhais 
+                                       3 
+                        Ghadeer El-Naqah 
+                                       2 
+                            Ghour Essafi 
+                                       8 
+                                  Hakama 
+                                       1 
+                             Hamiediyyeh 
+                                       1 
+                                   Hamra 
+                                       2 
+                                 Hariema 
+                                       1 
+                              Hashemiyah 
+                                       3 
+                                  Hebras 
+                                       1 
+                      Hoafa El-Wastiyyeh 
+                                       3 
+                                   Hoson 
+                                       2 
+                                Howwarah 
+                                       1 
+                                 Hwaijeh 
+                                       1 
+                                   Irbid 
+                                     115 
+                                  Jarash 
+                                      18 
+                                  Jbaiha 
+                                       7 
+                                   Jizeh 
+                                      22 
+                                   Karak 
+                                       2 
+                                 Karamah 
+                                       1 
+                                  Ketteh 
+                                       3 
+                       Khaldiyah Jadidah 
+                                       4 
+                       Khaldiyah Qademeh 
+                                       1 
+         Khraibet Essooq, Jawa, Yadoodeh 
+                                       8 
+                           Koam El-Ahmar 
+                                       3 
+                              Koam Erraf 
+                                       1 
+                              Kofor Asad 
+                                       2 
+                             Kofor Yooba 
+                                       1 
+                                    Kora 
+                                       7 
+                                Krayymeh 
+                                       1 
+                               Kufranjah 
+                                       1 
+                                  Libban 
+                                       2 
+                                   Ma'an 
+                                      11 
+                                  Madaba 
+                                      24 
+                                   Maeen 
+                                       1 
+                                  Mafraq 
+                                      46 
+                                 Manarah 
+                                       2 
+                    Manshiyat Bani Hasan 
+                                       1 
+                               Mansoorah 
+                                       4 
+                            Marj Elhamam 
+                                       2 
+                                   Marka 
+                                      21 
+                           Mazar Janoobi 
+                                       8 
+                           Mazar Shamali 
+                                       2 
+                                Mghayyer 
+                                       2 
+                         Mghayyer Serhan 
+                                       5 
+                                Mkaifteh 
+                                       5 
+                                Mowaqqar 
+                                       1 
+                       Mukhayyam Ghazzeh 
+                                       2 
+                                  Na'oor 
+                                       3 
+                                  Natfeh 
+                                       1 
+                                  Nayfeh 
+                                       2 
+                               No'ayymeh 
+                                       2 
+                                 Qafqafa 
+                                       1 
+                                  Qasfah 
+                                       1 
+                                    Qasr 
+                                       2 
+                                  Qastal 
+                                       6 
+                                  Ramtha 
+                                      49 
+                               Ras Alain 
+                                       2 
+                             Rba' Serhan 
+                                       1 
+                                   Rhaba 
+                                       1 
+                           Roadhet Basma 
+                                       2 
+                                Russeifa 
+                                       6 
+                                Rwaished 
+                                       1 
+                             Sa'iediyyeh 
+                                       1 
+                            Sab'e Aseyar 
+                                       2 
+                                   Sabha 
+                                       8 
+                                   Sahab 
+                                      22 
+                                   Sakeb 
+                                       1 
+                                 Sakhrah 
+                                       2 
+                                 Salhiya 
+                                       3 
+                                    Salt 
+                                      13 
+                             Sama Serhan 
+                                       3 
+                                   Samar 
+                                       1 
+                                  Sammo' 
+                                       1 
+                                  Sarieh 
+                                       4 
+                            Shafa Badran 
+                                       3 
+                                Shajarah 
+                                       5 
+                                 Shoabak 
+                                       1 
+                      Shooneh Janoobiyah 
+                                       2 
+                     Shooneh Janoobiyyeh 
+                                       6 
+                                    Soom 
+                                       1 
+                                 Swaileh 
+                                      19 
+                                 Tafileh 
+                                       6 
+                                   Tareq 
+                                       1 
+                                  Taybah 
+                                       3 
+                                 Tayybeh 
+                                       1 
+                                  Tebneh 
+                                       1 
+                        Thoghret El-Jobb 
+                                       2 
+        Tla'a Alali, Khelda, Um Essommaq 
+                                      20 
+                                  Torrah 
+                                       1 
+                             Um-Elqotain 
+                                       3 
+                             Um Al-Jemal 
+                                       3 
+                              Um El-Amad 
+                                       1 
+                           Um El-Jadayel 
+                                       1 
+                               Um Essrab 
+                                       7 
+                    Um Qsair, Moqabaleen 
+                                       2 
+                             Wadi Essier 
+                                      17 
+                              Wadi Moosa 
+                                       1 
+                               Wastiyyeh 
+                                       6 
+                                 Yarmook 
+                                      13 
+                                   Yebla 
+                                       1 
+                                 Za'tari 
+                                       7 
+                                   Zahar 
+                                       1 
+                                  Zahran 
+                                      16 
+                    Zamlet Al-Amir Ghazi 
+                                      14 
+                                   Zarqa 
+                                      40 
+                             ZAT D01-B00 
+                                       1 
+                             ZAT D08-B20 
+                                       1 
+
+                                       - 
+                            0.0017793594 
+                              Adnaniyyeh 
+                            0.0008896797 
+                      Aghwar Shamaliyyeh 
+                            0.0133451957 
+                                  Aidoon 
+                            0.0017793594 
+                           Ain El-Baidha 
+                            0.0008896797 
+                            Ain El-Basha 
+                            0.0017793594 
+                               Ain Janna 
+                            0.0017793594 
+                                  Ajloun 
+                            0.0026690391 
+                                   Ajlun 
+                            0.0017793594 
+                                   Al'al 
+                            0.0017793594 
+                                Al-Balqa 
+                            0.0071174377 
+                                Alabdaly 
+                            0.0195729537 
+                                Almadina 
+                            0.0320284698 
+                                 Alnaser 
+                            0.0008896797 
+Alquaismeh Aljwaydeh Abu Alanda Alrajeeb 
+                            0.0177935943 
+                                   Amman 
+                            0.1032028470 
+                          Amra & Amiereh 
+                            0.0008896797 
+                                 Anjarah 
+                            0.0008896797 
+                                   Aqaba 
+                            0.0071174377 
+                                    Aqeb 
+                            0.0008896797 
+                                  Athroh 
+                            0.0008896797 
+                                     Ayy 
+                            0.0008896797 
+                             AZR V03-B08 
+                            0.0008896797 
+                                   Azraq 
+                            0.0533807829 
+                           Azraq Shamali 
+                            0.0008896797 
+                                   Ba'ej 
+                            0.0017793594 
+                                   Bader 
+                            0.0133451957 
+                             Badr Jadeda 
+                            0.0008896797 
+                                Bait Ras 
+                            0.0053380783 
+                                 Bal'ama 
+                            0.0035587189 
+                            Bani Kenanah 
+                            0.0088967972 
+                                  Baq'ah 
+                            0.0017793594 
+                                  Basman 
+                            0.0195729537 
+                                  Bsaira 
+                            0.0008896797 
+                                Bwaidhah 
+                            0.0008896797 
+                                Dafyaneh 
+                            0.0115658363 
+                          Dair Abi Sa'id 
+                            0.0008896797 
+                               Dair Alla 
+                            0.0035587189 
+                           Dair Ess'eneh 
+                            0.0008896797 
+                                  Dhiban 
+                            0.0035587189 
+                                  Dhlail 
+                            0.0062277580 
+                                 Dnaibeh 
+                            0.0008896797 
+                                  Ebbien 
+                            0.0026690391 
+                         Eskan Abu Nsair 
+                            0.0026690391 
+                                  Fuhais 
+                            0.0026690391 
+                        Ghadeer El-Naqah 
+                            0.0017793594 
+                            Ghour Essafi 
+                            0.0071174377 
+                                  Hakama 
+                            0.0008896797 
+                             Hamiediyyeh 
+                            0.0008896797 
+                                   Hamra 
+                            0.0017793594 
+                                 Hariema 
+                            0.0008896797 
+                              Hashemiyah 
+                            0.0026690391 
+                                  Hebras 
+                            0.0008896797 
+                      Hoafa El-Wastiyyeh 
+                            0.0026690391 
+                                   Hoson 
+                            0.0017793594 
+                                Howwarah 
+                            0.0008896797 
+                                 Hwaijeh 
+                            0.0008896797 
+                                   Irbid 
+                            0.1023131673 
+                                  Jarash 
+                            0.0160142349 
+                                  Jbaiha 
+                            0.0062277580 
+                                   Jizeh 
+                            0.0195729537 
+                                   Karak 
+                            0.0017793594 
+                                 Karamah 
+                            0.0008896797 
+                                  Ketteh 
+                            0.0026690391 
+                       Khaldiyah Jadidah 
+                            0.0035587189 
+                       Khaldiyah Qademeh 
+                            0.0008896797 
+         Khraibet Essooq, Jawa, Yadoodeh 
+                            0.0071174377 
+                           Koam El-Ahmar 
+                            0.0026690391 
+                              Koam Erraf 
+                            0.0008896797 
+                              Kofor Asad 
+                            0.0017793594 
+                             Kofor Yooba 
+                            0.0008896797 
+                                    Kora 
+                            0.0062277580 
+                                Krayymeh 
+                            0.0008896797 
+                               Kufranjah 
+                            0.0008896797 
+                                  Libban 
+                            0.0017793594 
+                                   Ma'an 
+                            0.0097864769 
+                                  Madaba 
+                            0.0213523132 
+                                   Maeen 
+                            0.0008896797 
+                                  Mafraq 
+                            0.0409252669 
+                                 Manarah 
+                            0.0017793594 
+                    Manshiyat Bani Hasan 
+                            0.0008896797 
+                               Mansoorah 
+                            0.0035587189 
+                            Marj Elhamam 
+                            0.0017793594 
+                                   Marka 
+                            0.0186832740 
+                           Mazar Janoobi 
+                            0.0071174377 
+                           Mazar Shamali 
+                            0.0017793594 
+                                Mghayyer 
+                            0.0017793594 
+                         Mghayyer Serhan 
+                            0.0044483986 
+                                Mkaifteh 
+                            0.0044483986 
+                                Mowaqqar 
+                            0.0008896797 
+                       Mukhayyam Ghazzeh 
+                            0.0017793594 
+                                  Na'oor 
+                            0.0026690391 
+                                  Natfeh 
+                            0.0008896797 
+                                  Nayfeh 
+                            0.0017793594 
+                               No'ayymeh 
+                            0.0017793594 
+                                 Qafqafa 
+                            0.0008896797 
+                                  Qasfah 
+                            0.0008896797 
+                                    Qasr 
+                            0.0017793594 
+                                  Qastal 
+                            0.0053380783 
+                                  Ramtha 
+                            0.0435943060 
+                               Ras Alain 
+                            0.0017793594 
+                             Rba' Serhan 
+                            0.0008896797 
+                                   Rhaba 
+                            0.0008896797 
+                           Roadhet Basma 
+                            0.0017793594 
+                                Russeifa 
+                            0.0053380783 
+                                Rwaished 
+                            0.0008896797 
+                             Sa'iediyyeh 
+                            0.0008896797 
+                            Sab'e Aseyar 
+                            0.0017793594 
+                                   Sabha 
+                            0.0071174377 
+                                   Sahab 
+                            0.0195729537 
+                                   Sakeb 
+                            0.0008896797 
+                                 Sakhrah 
+                            0.0017793594 
+                                 Salhiya 
+                            0.0026690391 
+                                    Salt 
+                            0.0115658363 
+                             Sama Serhan 
+                            0.0026690391 
+                                   Samar 
+                            0.0008896797 
+                                  Sammo' 
+                            0.0008896797 
+                                  Sarieh 
+                            0.0035587189 
+                            Shafa Badran 
+                            0.0026690391 
+                                Shajarah 
+                            0.0044483986 
+                                 Shoabak 
+                            0.0008896797 
+                      Shooneh Janoobiyah 
+                            0.0017793594 
+                     Shooneh Janoobiyyeh 
+                            0.0053380783 
+                                    Soom 
+                            0.0008896797 
+                                 Swaileh 
+                            0.0169039146 
+                                 Tafileh 
+                            0.0053380783 
+                                   Tareq 
+                            0.0008896797 
+                                  Taybah 
+                            0.0026690391 
+                                 Tayybeh 
+                            0.0008896797 
+                                  Tebneh 
+                            0.0008896797 
+                        Thoghret El-Jobb 
+                            0.0017793594 
+        Tla'a Alali, Khelda, Um Essommaq 
+                            0.0177935943 
+                                  Torrah 
+                            0.0008896797 
+                             Um-Elqotain 
+                            0.0026690391 
+                             Um Al-Jemal 
+                            0.0026690391 
+                              Um El-Amad 
+                            0.0008896797 
+                           Um El-Jadayel 
+                            0.0008896797 
+                               Um Essrab 
+                            0.0062277580 
+                    Um Qsair, Moqabaleen 
+                            0.0017793594 
+                             Wadi Essier 
+                            0.0151245552 
+                              Wadi Moosa 
+                            0.0008896797 
+                               Wastiyyeh 
+                            0.0053380783 
+                                 Yarmook 
+                            0.0115658363 
+                                   Yebla 
+                            0.0008896797 
+                                 Za'tari 
+                            0.0062277580 
+                                   Zahar 
+                            0.0008896797 
+                                  Zahran 
+                            0.0142348754 
+                    Zamlet Al-Amir Ghazi 
+                            0.0124555160 
+                                   Zarqa 
+                            0.0355871886 
+                             ZAT D01-B00 
+                            0.0008896797 
                              ZAT D08-B20 
                             0.0008896797 
 [1] "######################################################"
 [1] "Respondent.Gender  Frequency"
 
+female   male 
+   368    756 
+
    female      male 
 0.3274021 0.6725979 
 [1] "######################################################"
 [1] "HoH.Gender  Frequency"
+
+female   male 
+   248    876 
 
    female      male 
 0.2206406 0.7793594 
@@ -307,24 +892,39 @@ Alquaismeh Aljwaydeh Abu Alanda Alrajeeb                                    Amma
 [1] "Household.Members.disabled.or.chronically.ill  Frequency"
 
           both chronically_il     disability             no 
+            54            196            107            767 
+
+          both chronically_il     disability             no 
     0.04804270     0.17437722     0.09519573     0.68238434 
 [1] "######################################################"
 [1] "HH.Member.has.disability  Frequency"
+
+  No  Yes 
+1017  107 
 
         No        Yes 
 0.90480427 0.09519573 
 [1] "######################################################"
 [1] "HH..Member.has.chronic.ill  Frequency"
 
+ No Yes 
+928 196 
+
        No       Yes 
 0.8256228 0.1743772 
 [1] "######################################################"
 [1] "HH.member.has.both_dis_CI  Frequency"
 
+  No  Yes 
+1070   54 
+
        No       Yes 
 0.9519573 0.0480427 
 [1] "######################################################"
 [1] "HH.member.has.none_.dis_CI  Frequency"
+
+ No Yes 
+357 767 
 
        No       Yes 
 0.3176157 0.6823843 
@@ -332,9 +932,23 @@ Alquaismeh Aljwaydeh Abu Alanda Alrajeeb                                    Amma
 [1] "Where.do.you.live.currently.  Frequency"
 
 host_community  informal_tent          other 
+           966            138             20 
+
+host_community  informal_tent          other 
     0.85943060     0.12277580     0.01779359 
 [1] "######################################################"
+[1] "If.host.community..what.is.your.type.of.dwelling.possession.  Frequency"
+
+    for_free owned_by_fam  owned_by_hh       rented      unknown 
+           5           11           29           19          587 
+
+    for_free owned_by_fam  owned_by_hh       rented      unknown 
+ 0.007680492  0.016897081  0.044546851  0.029185868  0.901689708 
+[1] "######################################################"
 [1] "UNHCR.Cash.Beneficiary  Frequency"
+
+  No  Yes 
+1093   31 
 
         No        Yes 
 0.97241993 0.02758007 
@@ -342,11 +956,17 @@ host_community  informal_tent          other
 [1] "FAMILY_SIZE  Frequency"
 
 3 or less    4 to 6 7 or more 
+      353       442       329 
+
+3 or less    4 to 6 7 or more 
 0.3140569 0.3932384 0.2927046 
 [1] "######################################################"
 [1] "REFUGEE_STATUS  Frequency"
 
-       Non-Refugee Non-Syrian Refugee     Syrian Refugee 
+         Jordanian Non-Syrian Refugee     Syrian Refugee 
+               400                194                530 
+
+         Jordanian Non-Syrian Refugee     Syrian Refugee 
          0.3558719          0.1725979          0.4715302 
 [1] "######################################################"
 [1] "Family.Size  Statistics"

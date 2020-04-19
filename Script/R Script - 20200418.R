@@ -106,9 +106,9 @@ data$REFUGEE_STATUS <- as.factor(data$REFUGEE_STATUS)
 
 
 # Define categorical data and disaggregate data
-categorical_var <- c("Consent", "Enumerator", "Enumerator.Agency", "Refugee.vs.Jordanian", "Enumerator.Agency", "X.UNHCR.Case.ID.", "Nationality", "Governorate", "District", "Respondent.Gender", "HoH.Gender", "Household.Members.disabled.or.chronically.ill", "HH.Member.has.disability","HH..Member.has.chronic.ill","HH.member.has.both_dis_CI","HH.member.has.none_.dis_CI","Where.do.you.live.currently.", "UNHCR.Cash.Beneficiary", "FAMILY_SIZE", "REFUGEE_STATUS")
+categorical_var <- c("Consent", "Enumerator", "Enumerator.Agency", "Refugee.vs.Jordanian", "Enumerator.Agency", "X.UNHCR.Case.ID.", "Nationality", "Governorate", "District", "Respondent.Gender", "HoH.Gender", "Household.Members.disabled.or.chronically.ill", "HH.Member.has.disability","HH..Member.has.chronic.ill","HH.member.has.both_dis_CI","HH.member.has.none_.dis_CI","Where.do.you.live.currently.", "If.host.community..what.is.your.type.of.dwelling.possession." , "UNHCR.Cash.Beneficiary", "FAMILY_SIZE", "REFUGEE_STATUS")
 numerical_var <- c("Family.Size", "X..of.girls.in.case...18.", "X..of.boys.in.case...18.","X..of..adult.females...18.59.","X..of.adult.males...18..59.","X..of.elderly...60.","X..of.HH.members.with.disabilities", "X..of.HH.members.with.chronic.illness")
-disaggregate_var <- c("Nationality", "Governorate", "HoH.Gender", "FAMILY_SIZE", "REFUGEE_STATUS")
+disaggregate_var <- c("Nationality", "Governorate", "HoH.Gender", "FAMILY_SIZE", "REFUGEE_STATUS", "Where.do.you.live.currently.")
 
 
 ###########################################################################################################################
@@ -124,6 +124,7 @@ sink("Outputs/Aggregated Analysis Output.txt")
     title = paste(i, " Frequency")
     print("######################################################")
     print(title)
+    print(table(eval(a)))
     print(prop.table(table(eval(a))))
   }
   

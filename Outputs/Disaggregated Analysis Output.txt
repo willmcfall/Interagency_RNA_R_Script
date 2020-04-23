@@ -7686,193 +7686,97 @@ Non-Syrian Refugee |            188 |              6 |              0 |         
  
 [1] "######################################################"
 [1] "Mean  Family.Size  by  Nationality"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  Family.Size  by  Governorate"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  Family.Size  by  HoH.Gender"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  Family.Size  by  FAMILY_SIZE"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  Family.Size  by  REFUGEE_STATUS"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  Family.Size  by  Where.do.you.live.currently."
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.girls.in.case...18.  by  Nationality"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.girls.in.case...18.  by  Governorate"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.girls.in.case...18.  by  HoH.Gender"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.girls.in.case...18.  by  FAMILY_SIZE"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.girls.in.case...18.  by  REFUGEE_STATUS"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.girls.in.case...18.  by  Where.do.you.live.currently."
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.boys.in.case...18.  by  Nationality"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.boys.in.case...18.  by  Governorate"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.boys.in.case...18.  by  HoH.Gender"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.boys.in.case...18.  by  FAMILY_SIZE"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.boys.in.case...18.  by  REFUGEE_STATUS"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.boys.in.case...18.  by  Where.do.you.live.currently."
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of..adult.females...18.59.  by  Nationality"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of..adult.females...18.59.  by  Governorate"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of..adult.females...18.59.  by  HoH.Gender"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of..adult.females...18.59.  by  FAMILY_SIZE"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of..adult.females...18.59.  by  REFUGEE_STATUS"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of..adult.females...18.59.  by  Where.do.you.live.currently."
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.adult.males...18..59.  by  Nationality"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.adult.males...18..59.  by  Governorate"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.adult.males...18..59.  by  HoH.Gender"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.adult.males...18..59.  by  FAMILY_SIZE"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.adult.males...18..59.  by  REFUGEE_STATUS"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.adult.males...18..59.  by  Where.do.you.live.currently."
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.elderly...60.  by  Nationality"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.elderly...60.  by  Governorate"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.elderly...60.  by  HoH.Gender"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.elderly...60.  by  FAMILY_SIZE"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.elderly...60.  by  REFUGEE_STATUS"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.elderly...60.  by  Where.do.you.live.currently."
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.HH.members.with.disabilities  by  Nationality"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.HH.members.with.disabilities  by  Governorate"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.HH.members.with.disabilities  by  HoH.Gender"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.HH.members.with.disabilities  by  FAMILY_SIZE"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.HH.members.with.disabilities  by  REFUGEE_STATUS"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.HH.members.with.disabilities  by  Where.do.you.live.currently."
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.HH.members.with.chronic.illness  by  Nationality"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.HH.members.with.chronic.illness  by  Governorate"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.HH.members.with.chronic.illness  by  HoH.Gender"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.HH.members.with.chronic.illness  by  FAMILY_SIZE"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.HH.members.with.chronic.illness  by  REFUGEE_STATUS"
-  mean
-1   NA
 [1] "######################################################"
 [1] "Mean  X..of.HH.members.with.chronic.illness  by  Where.do.you.live.currently."
-  mean
-1   NA
